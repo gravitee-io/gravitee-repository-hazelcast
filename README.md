@@ -1,16 +1,20 @@
-[![Build Status](https://ci.gravitee.io/buildStatus/icon?job=gravitee-io/gravitee-repository-hazelcast/master)](https://ci.gravitee.io/job/gravitee-io/job/gravitee-repository-hazelcast/job/master/)
+# ⚠️ DEPRECATED
 
-# Gravitee Hazelcast Repository
+This repository is no longer active, all the sources have been moved to a [new monorepo](https://github.com/gravitee-io/gravitee-api-management/tree/master/gravitee-apim-repository/gravitee-apim-repository-hazelcast).
+
+The new repository will be become the single GitHub repository for everything related to Gravitee.io API Management.
+
+## Gravitee Hazelcast Repository
 
 A repository implementation based on [Hazelcast](https://hazelcast.com/).
 
-## Requirement
+### Requirement
 
 The minimum requirement is:
  * Maven3 
  * Jdk8
 
-## Building
+### Building
 
 ```
 $ git clone https://github.com/gravitee-io/gravitee-repository-hazelcast.git
@@ -18,11 +22,11 @@ $ cd gravitee-repository-hazelcast
 $ mvn clean package
 ```
 
-## Installing
+### Installing
 
 Unzip the gravitee-repository-hazelcast-x.y.z-SNAPSHOT.zip in the plugins directory.
 
-## Configuration
+### Configuration
 
 repository.mongodb options : 
 
